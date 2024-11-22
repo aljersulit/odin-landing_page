@@ -139,6 +139,34 @@ div.right-content {
   align-items: center;
 }
 
+section#info-section {
+  padding-bottom: 100px;
+}
+
+h2.info-header {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+div.info-container {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+div.info-item {
+  width: min-content;
+}
+
+div.blue-border {
+  width: 165px;
+  height: 165px;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+}
+
 /* utils */
 .secondary-text {
   font-size: 18px;
