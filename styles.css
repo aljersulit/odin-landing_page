@@ -167,6 +167,29 @@ div.blue-border {
   border-radius: 20px;
 }
 
+section#quote {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+p.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight:300;
+  line-height: 1.2em;
+  color: #1f2937;
+  width: 800px;
+  margin: 0 auto;
+}
+
+p.quote-text > span {
+  display: block;
+  text-align:end;
+  font-size: 24px;
+  font-style: normal;
+  padding-right: 25px;
+}
+
 /* utils */
 .secondary-text {
   font-size: 18px;
