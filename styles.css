@@ -224,6 +224,15 @@ div.call-to-action_container > div > h4 {
 div.call-to-action_container > div > p {
   margin-top: 0;
 }
+footer.footer {
+  background-color: #1f2937;
+}
+
+footer.footer > p {
+  color: #f9faf8;
+  text-align: center;
+  padding: 35px 0;
+}
 
 /* utils */
 .secondary-text {
