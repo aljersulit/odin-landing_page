@@ -124,12 +124,22 @@ section#hero {
   margin-bottom: 24px;
 }
 
-.call-to-action {
+.primary-btn {
   background-color: #3882f6;
   color: inherit;
+}
+
+.secondary-btn {
+  outline: 0.1px solid #f9faf8;
+  color: #f9faf8;
+  line-height: 1em;
+}
+
+.signup-button {
   text-decoration: none;
   padding: 10px 38px;
   border-radius: 10px;
+  height: min-content;
 }
 
 div.right-content {
@@ -188,6 +198,31 @@ p.quote-text > span {
   font-size: 24px;
   font-style: normal;
   padding-right: 25px;
+}
+
+section#call-to-action {
+  padding: 100px 0;
+}
+
+div.call-to-action_container {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 1030px;
+  margin: 0 auto;
+  padding: 45px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.call-to-action_container > div > h4 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+div.call-to-action_container > div > p {
+  margin-top: 0;
 }
 
 /* utils */
